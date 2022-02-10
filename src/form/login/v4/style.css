@@ -1,0 +1,54 @@
+* {
+	-fx-font-family: "Segoe UI Light";
+}
+
+AnchorPane {
+	-fx-background-color: #ffffff;
+}
+
+.UserInfoPane {
+	-fx-background-color: #aaccff55;
+}
+
+Button {
+	-fx-background-color: #aaccff;
+	-fx-text-fill: #ffffff;
+	-fx-border-width: 0.5px;
+	-fx-border-color: #eeeeee;
+}
+
+Button:hover {
+	-fx-background-color: #a0c0f0;
+}
+
+Button:pressed {
+	-fx-background-color: #b0d0f5;
+}
+
+TextField {
+	-fx-background-color: #ffffff;
+	-fx-border-width: 0px 0px 1.5px 0px;
+	-fx-border-color: #aaccff;
+}
+
+TextField:hover {
+	-fx-background-color: #dddddd;
+}
+
+TextField:focused {
+	-fx-background-color: #efefef;
+}
+
+PasswordField {
+	-fx-background-color: #ffffff;
+	-fx-border-width: 0px 0px 2px 0px;
+	-fx-border-color: #aaccff;
+}
+
+PasswordField:hover {
+	-fx-background-color: #dddddd;
+}
+
+PasswordField:focused {
+	-fx-background-color: #efefef;
+}
