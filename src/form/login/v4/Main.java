@@ -1,5 +1,5 @@
 package form.login.v4;
-	
+
 import javafx.application.Application;
 import javafx.fxml.*;
 import javafx.scene.Scene;
@@ -13,7 +13,7 @@ public class Main extends Application {
 		stage.setResizable(false);
 		stage.show();
 	}
-	
+
 	public static void main(String[] args) {
 		launch(args);
 	}
